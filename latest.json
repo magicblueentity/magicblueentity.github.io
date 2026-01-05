@@ -1,7 +1,8 @@
 {
-  "version": "27.0",
+  "version": "26.0.1",
   "url": "https://magicblueentity.github.io/EncryptHome_27_Setup.exe",
   "sha256": "BF280547713AAFEBB9B3A1BE8BE9B542738C62F481C388A4461748BC3FED1A5A",
-  "changelog": "- Neue Features\n- Bugfixes\n- Performance Verbesserungen",
+  "changelog": "- Geschwindigkeitsverbesserungen\n- Härtung des PC-Keys\n- Fehlerbehebungen\n ⚠️ Der Setup muss erneut ausgeführt werden!",
   "size_mb": 25.5
 }
+
