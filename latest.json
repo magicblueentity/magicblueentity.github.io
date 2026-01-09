@@ -1,9 +1,9 @@
 {
-  "version": "26.0.1",
-  "url": "https://magicblueentity.github.io/latest/EncryptHome/ANCORATE_EncryptHome_26.0.1_0002_Setup.exe",
-  "sha256": "333528E923E3035D155CBF12CBDEA8339367449A05FD0AF5AB2B9D53D09A6251",
-  "changelog": "- Fehler behoben, der beim Hinzufügen mehrerer Dateien auf einmal zu einem Tresor auftrat\n- Update-Prozess vereinfacht und abgesichert\n- Performance-Verbesserungen\n\nEncryptHome 26.0.1 ist abwärtskompatibel mit allen Vorgängerversionen.\n⚠️ Wenn Sie Version 26.0 verwenden, müssen Sie zum Installieren das Programm als \nAdministrator starten.",
-  "size_mb": 45
+  "version": "26.0.2",
+  "url": "https://magicblueentity.github.io/latest/EncryptHome/ANCORATE_EncryptHome_26.0.2_0003_Setup.exe",
+  "sha256": "429213FA9C517EE60F584674547C667295296597BE8FFEE7F085B27BEA578A44",
+  "changelog": "- Problembehebungen\n- Updater unterstützt nun die ANCORATE Secure Update Engine\n\nEncryptHome 26.0.2 ist abwärtskompatibel mit allen Vorgängerversionen.\n⚠️ Wenn Sie Version 26.0 verwenden, müssen Sie zum Installieren das Programm als \nAdministrator starten.",
+  "size_mb": 46.1
 }
 
 
