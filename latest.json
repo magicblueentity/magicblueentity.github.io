@@ -2,7 +2,7 @@
   "version": "26.0.3",
   "url": "https://magicblueentity.github.io/latest/EncryptHome/ANCORATE_EncryptHome_26.0.3_0004_Setup.exe",
   "sha256": "CFEEAE23B2FC2422D35EDA700B407CF49C8B65690ADE0CE25335A843015E4299",
-  "changelog": "- Diverse Rechtschreibfehler entfernt\n- Fehler behoben, der dafür gesorgt hat, dass sich die\nEinstellungen nicht geschlossen haben\n- Beim Aktualisieren werden Administratorrechte nun automatisch\nangefordert\nEncryptHome 26.0.3 ist abwärtskompatibel mit allen Vorgängerversionen.\n⚠️ Wenn Sie Version 26.0 verwenden, müssen Sie zum Installieren das Programm als \nAdministrator starten.",
+  "changelog": "- Diverse Rechtschreibfehler entfernt\n- Fehler behoben, der dafür gesorgt hat, dass sich die\nEinstellungen nicht geschlossen haben\n- Beim Aktualisieren werden Administratorrechte nun automatisch\nangefordert\nEncryptHome 26.0.3 ist abwärtskompatibel mit allen Vorgängerversionen.\n⚠️ Wenn Sie Version 26.0 verwenden, müssen Sie zum Installieren das Programm als \nAdministrator starten. Andernfalls sehen Sie einen Fehler.",
   "size_mb": 46.05
 }
 
