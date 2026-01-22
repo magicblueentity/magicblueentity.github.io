@@ -2,7 +2,7 @@
   "version": "26.0.4.1",
   "url": "https://magicblueentity.github.io/latest/EncryptHome/ANCORATE_EncryptHome_26.0.4.1_0006_Setup.exe",
   "sha256": "F1921182D6573C63E6441E8B9A9B08A0D1472229A6C7A520D0B91B38FE53F6AA",
-  "changelog": "- schwerwiegende Sicherheitslücken geschlossen\nANCORATE 26.0.4 ist abwärtskompatibel mit allen Vorgängerversionen.\n⚠️ Wenn Sie Version 26.0 verwenden, müssen Sie zum Installieren das Programm als Administrator starten. Andernfalls sehen Sie einen Fehler.",
+  "changelog": "- schwerwiegende Sicherheitslücken geschlossen\nANCORATE 26.0.4.1 ist abwärtskompatibel mit allen Vorgängerversionen.\n⚠️ Wenn Sie Version 26.0 verwenden, müssen Sie zum Installieren das Programm als Administrator starten. Andernfalls sehen Sie einen Fehler.",
   "size_mb": 46.05
 }
 
