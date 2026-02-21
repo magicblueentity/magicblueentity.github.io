@@ -1,7 +1,7 @@
 {
-  "version": "26.1",
-  "url": "https://magicblueentity.github.io/latest/EncryptHome/ANCORATE_EncryptHome_26.1_0007_Setup.exe",
+  "version": "26.1.1",
+  "url": "https://magicblueentity.github.io/latest/EncryptHome/ANCORATE_EncryptHome_26.1.1_0008_Setup.exe",
   "sha256": "7C4765C57C158B9AC0A2C488FDCDB0EC6035D5C83B758E5AF559C78E312A4315",
-  "changelog": "Neues: \n\n- Dateivorschau: Entschlüssele Dateien mit der Preview Engine im Vorschaumodus um Inhalte schneller anzuzeigen\n- Verbesserte Fehlerbehandlung- Abwärtskompatibilität: ANCORATE EncryptHome26.1 ist abwärtskompatibel mit allen Vorgängerversionen.\n⚠️ Wenn Sie Version 26.0 verwenden, müssen Sie zum Installieren das Programm als Administrator starten. Andernfalls sehen Sie einen Fehler.",
+  "changelog": "Wir stellen vor: Die stabilste ANCORATE-Version bis jetzt.\n- Verbesserte Fehlerbehandlung\n- Optimierte Leistung\n- Behebung von Sicherheitslücken\n- Verbesserte Benutzeroberfläche\n- Neue Funktionen für eine bessere Benutzererfahrung\nDiese Version ist das Ergebnis intensiver Tests und Feedbacks unserer Nutzer.",
   "size_mb": 92.1
 }
