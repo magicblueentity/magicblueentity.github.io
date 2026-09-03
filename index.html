@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ANCORATE</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+      background: #0a0a0a;
+      color: #e0e0e0;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 6rem 1.5rem 4rem;
+      background: linear-gradient(180deg, #0f1115 0%, #0a0a0a 100%);
+    }
+
+    .logo {
+      font-size: 3rem;
+      font-weight: 700;
+      letter-spacing: 0.35em;
+      color: #fff;
+      margin-bottom: 0.5rem;
+    }
+
+    .tagline {
+      font-size: 1.05rem;
+      color: #888;
+      letter-spacing: 0.08em;
+      margin-bottom: 2.5rem;
+    }
+
+    .download-btn {
+      display: inline-block;
+      padding: 0.85rem 2.4rem;
+      background: #fff;
+      color: #0a0a0a;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 0.95rem;
+      letter-spacing: 0.04em;
+      border-radius: 6px;
+      transition: background 0.2s, transform 0.15s;
+    }
+
+    .download-btn:hover {
+      background: #d0d0d0;
+      transform: translateY(-1px);
+    }
+
+    .version-badge {
+      display: inline-block;
+      margin-top: 1.2rem;
+      font-size: 0.8rem;
+      color: #666;
+      letter-spacing: 0.05em;
+    }
+
+    .content {
+      max-width: 740px;
+      margin: 0 auto;
+      padding: 0 1.5rem 5rem;
+      width: 100%;
+    }
+
+    section {
+      margin-bottom: 3rem;
+    }
+
+    h2 {
+      font-size: 1.15rem;
+      font-weight: 600;
+      color: #fff;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      margin-bottom: 1rem;
+      padding-bottom: 0.6rem;
+      border-bottom: 1px solid #1e1e1e;
+    }
+
+    .changelog-list {
+      list-style: none;
+    }
+
+    .changelog-list li {
+      position: relative;
+      padding: 0.5rem 0 0.5rem 1.2rem;
+      font-size: 0.92rem;
+      color: #aaa;
+      line-height: 1.55;
+    }
+
+    .changelog-list li::before {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 0.85rem;
+      width: 5px;
+      height: 5px;
+      background: #333;
+      border-radius: 50%;
+    }
+
+    .feature-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1rem;
+    }
+
+    .feature-card {
+      background: #111113;
+      border: 1px solid #1a1a1a;
+      border-radius: 8px;
+      padding: 1.3rem;
+    }
+
+    .feature-card h3 {
+      font-size: 0.85rem;
+      font-weight: 600;
+      color: #ccc;
+      margin-bottom: 0.4rem;
+      letter-spacing: 0.03em;
+    }
+
+    .feature-card p {
+      font-size: 0.82rem;
+      color: #666;
+      line-height: 1.5;
+    }
+
+    .legal {
+      padding: 2.5rem 1.5rem;
+      text-align: center;
+      border-top: 1px solid #141414;
+      margin-top: auto;
+    }
+
+    .legal p {
+      font-size: 0.75rem;
+      color: #444;
+      line-height: 1.7;
+    }
+
+    @media (max-width: 600px) {
+      .logo { font-size: 2rem; }
+      .feature-grid { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+
+  <header class="hero">
+    <div class="logo">ANCORATE</div>
+    <p class="tagline">Secure encryption for your files</p>
+    <a href="https://magicblueentity.github.io/latest/EncryptHome/ANCORATE_EncryptHome_26.2_0009_Setup.exe" class="download-btn">Download EncryptHome</a>
+    <br>
+    <span class="version-badge">v27.0-beta.1 &middot; 93 MB</span>
+  </header>
+
+  <main class="content">
+
+    <section>
+      <h2>Features</h2>
+      <div class="feature-grid">
+        <div class="feature-card">
+          <h3>Cross-Platform</h3>
+          <p>Full support for Windows, macOS, and Linux.</p>
+        </div>
+        <div class="feature-card">
+          <h3>EncryptIntelligence</h3>
+          <p>Local, offline AI-powered document indexing and Q&A inside your vaults.</p>
+        </div>
+        <div class="feature-card">
+          <h3>Vault Passwords</h3>
+          <p>Flexible vault password management &amp; updates.</p>
+        </div>
+        <div class="feature-card">
+          <h3>Fast &amp; Efficient</h3>
+          <p>Accelerated encryption, faster startup, lower memory usage.</p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Changelog</h2>
+      <ul class="changelog-list">
+        <li>macOS and Linux support &mdash; EncryptHome is now fully optimized for Mac and Linux</li>
+        <li>EncryptIntelligence Beta &mdash; local, offline AI-powered document indexing and Q&amp;A in encrypted vaults</li>
+        <li>Vault password management &mdash; passwords can be updated flexibly</li>
+        <li>Improved file saving and synchronized operations</li>
+        <li>Accelerated encryption and decryption</li>
+        <li>Startup performance gains and reduced memory footprint</li>
+        <li>More robust error handling with meaningful messages</li>
+        <li>Modernized UI with numerous optimizations</li>
+        <li>Enhanced security checks on vault access</li>
+        <li>Maximum support for current operating systems</li>
+        <li>Bug fixes and security patches</li>
+        <li>Python runtime updated to version 3.14.6</li>
+      </ul>
+    </section>
+
+  </main>
+
+  <footer class="legal">
+    <p>&copy; 2026 Samuel Jonathan Tirwa &amp; Gabriel Leiria-Roussin. All rights reserved.</p>
+    <p>Unauthorized reproduction, reverse-engineering, or distribution of any content is prohibited and will be prosecuted.</p>
+  </footer>
+
+</body>
+</html>

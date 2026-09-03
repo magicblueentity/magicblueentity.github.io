@@ -1,7 +1,7 @@
 {
-  "version": "26.1.1",
-  "url": "https://magicblueentity.github.io/latest/EncryptHome/ANCORATE_EncryptHome_26.1.1_0008_Setup.exe",
+  "version": "27.0-beta.1",
+  "url": "https://magicblueentity.github.io/latest/EncryptHome/ANCORATE_EncryptHome_26.2_0009_Setup.exe",
   "sha256": "AC37CD2AC804CC778C1AFF84E23B42743F78471BE159D6CD854E79F5915A7D69",
-  "changelog": "Wir stellen vor: Die stabilste ANCORATE EncryptHome-Version bis jetzt.\n- Preview Engine für Videos: Ansehen von Videos, Bildern und PDFs ohne Entschlüsselung\n- Verbesserte Fehlerbehandlung\n- Optimierte Leistung\n- Behebung von Sicherheitslücken\n- Verbesserte Benutzeroberfläche\n\nDiese Version bietet eine verbesserte Benutzererfahrung und erhöhte Sicherheit.\nWir empfehlen allen Benutzern, auf die neueste Version zu aktualisieren, um von den neuesten Funktionen und Verbesserungen zu profitieren.",
+  "changelog": "Wir präsentieren die bedeutendste ANCORATE EncryptHome-Version aller Zeiten.\n\n- macOS und Linux-Unterstützung: EncryptHome ist nun vollständig für Mac- und Linux-Systeme optimiert\n- EncryptIntelligence Beta: Lokales, offline KI-gestütztes Dokumentenindexing und Frage-Antwort-Funktionalität in verschlüsselten Tresoren\n- Tresorpasswort-Verwaltung: Passwörter können flexibel aktualisiert werden\n- Verbessertes Dateispeichern und synchronisierte Vorgänge\n- Beschleunigte Verschlüsselung und Entschlüsselung\n- Effizienzgewinne beim Start und reduzierter Speicherverbrauch\n- Robustere Fehlerverarbeitung und aussagekräftige Meldungen\n- Modernisierte UI mit zahlreichen Optimierungen\n- Erhöhte Sicherheitsüberprüfungen beim Tresor-Zugriff\n- Maximale Unterstützung für aktuelle Betriebssysteme\n- Behobene Bugs und geschlossene Sicherheitslücken\n- Python-Runtime aktualisiert auf Version 3.14.6\n\nDiese Version bringt macOS- und Linux-Support mit EncryptIntelligence Beta und gleichzeitig Leistungs-, Stabilitäts- und Sicherheitsfortschritte auf allen Plattformen. Wir empfehlen allen Nutzern ein Update, um von allen neuen Funktionen und Verbesserungen zu profitieren.",
   "size_mb": 93.1
 }
