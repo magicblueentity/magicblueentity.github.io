@@ -159,9 +159,9 @@
   <header class="hero">
     <div class="logo">ANCORATE</div>
     <p class="tagline">Secure encryption for your files</p>
-    <a href="https://magicblueentity.github.io/latest/EncryptHome/ANCORATE_EncryptHome_26.2_0009_Setup.exe" class="download-btn">Download EncryptHome</a>
+    <a href="https://magicblueentity.github.io/latest/EncryptHome/ANCORATE_EncryptHome_27_Beta_1_Setup.exe" class="download-btn">Download EncryptHome</a>
     <br>
-    <span class="version-badge">v27.0-beta.1 &middot; 93 MB</span>
+    <span class="version-badge">v27.0-beta.1 &middot; Capsule</span>
   </header>
 
   <main class="content">
@@ -170,20 +170,44 @@
       <h2>Features</h2>
       <div class="feature-grid">
         <div class="feature-card">
-          <h3>Cross-Platform</h3>
-          <p>Full support for Windows, macOS, and Linux.</p>
+          <h3>Device-Bound Encryption</h3>
+          <p>AES-256-GCM with per-file HKDF subkeys, HMAC-SHA256 integrity, and device binding for strong local protection.</p>
         </div>
         <div class="feature-card">
-          <h3>EncryptIntelligence</h3>
-          <p>Local, offline AI-powered document indexing and Q&A inside your vaults.</p>
+          <h3>In-Vault Editing</h3>
+          <p>Edit decrypted files directly and automatically re-encrypt each change back into the vault.</p>
         </div>
         <div class="feature-card">
-          <h3>Vault Passwords</h3>
-          <p>Flexible vault password management &amp; updates.</p>
+          <h3>Built-in Preview Engine</h3>
+          <p>Preview PDFs, images, videos, and text without ever decrypting the file to disk.</p>
         </div>
         <div class="feature-card">
-          <h3>Fast &amp; Efficient</h3>
-          <p>Accelerated encryption, faster startup, lower memory usage.</p>
+          <h3>Secure Deletion</h3>
+          <p>Vernichtet files with multiple overwrite methods (Standard, DoD 5220.22-M 3x, Gutmann).</p>
+        </div>
+        <div class="feature-card">
+          <h3>Emergency SOS Scanner</h3>
+          <p>A local scanner to find and permanently destroy orphaned .salt vaults when needed.</p>
+        </div>
+        <div class="feature-card">
+          <h3>Vault Password Management</h3>
+          <p>Flexibly change the password of an existing vault at any time.</p>
+        </div>
+        <div class="feature-card">
+          <h3>Protection &amp; Control</h3>
+          <p>Screenshot/capture protection on Windows, auto-lock, and customizable keyboard shortcuts.</p>
+        </div>
+        <div class="feature-card">
+          <h3>LAN Sharing &amp; VaultBridge</h3>
+          <p>UDP discovery and TCP transfer for sharing plus USB monitoring of removable vault devices.</p>
+        </div>
+        <div class="feature-card">
+          <h3>Modern Theming</h3>
+          <p>Four themes (Standard-dark, Standard-White, High-Contrast, Midnight Blue), custom accent colors, and density settings.</p>
+        </div>
+        <div class="feature-card">
+          <h3>Integrity &amp; Updates</h3>
+          <p>Startup integrity verification and update checks to ensure a clean, trustworthy install.</p>
         </div>
       </div>
     </section>
@@ -191,18 +215,18 @@
     <section>
       <h2>Changelog</h2>
       <ul class="changelog-list">
-        <li>macOS and Linux support &mdash; EncryptHome is now fully optimized for Mac and Linux</li>
-        <li>EncryptIntelligence Beta &mdash; local, offline AI-powered document indexing and Q&amp;A in encrypted vaults</li>
-        <li>Vault password management &mdash; passwords can be updated flexibly</li>
-        <li>Improved file saving and synchronized operations</li>
-        <li>Accelerated encryption and decryption</li>
-        <li>Startup performance gains and reduced memory footprint</li>
-        <li>More robust error handling with meaningful messages</li>
-        <li>Modernized UI with numerous optimizations</li>
-        <li>Enhanced security checks on vault access</li>
-        <li>Maximum support for current operating systems</li>
-        <li>Bug fixes and security patches</li>
-        <li>Python runtime updated to version 3.14.6</li>
+        <li>New edition codename &mdash; EncryptHome is now "Capsule"</li>
+        <li>Reliable in-vault editing &mdash; files are re-encrypted atomically and safely on every save</li>
+        <li>Safer secure deletion &mdash; atomically rebuilds the vault instead of risky in-place overwriting</li>
+        <li>Fixed header-repair logic that could damage vaults &mdash; damaged headers now fail cleanly instead of corrupting data</li>
+        <li>Hardened decryption length checks to reject malformed vault blobs cleanly</li>
+        <li>Graceful handling of files with no associated application during in-vault editing (no more crash)</li>
+        <li>System integrity check no longer aborts the whole application unexpectedly</li>
+        <li>Enhanced theme engine with Standard-dark, Standard-White, High-Contrast, and Midnight Blue</li>
+        <li>Screenshot/capture protection on Windows</li>
+        <li>Emergency SOS scanner for orphaned .salt vaults</li>
+        <li>LAN sharing with UDP discovery and TCP transfer</li>
+        <li>Various stability, security, and compatibility improvements</li>
       </ul>
     </section>
 
